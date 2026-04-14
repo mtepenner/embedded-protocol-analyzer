@@ -1,0 +1,18 @@
+{
+  "generic_malicious_strings": [
+    "DROP TABLE",
+    "UNION SELECT",
+    "/bin/sh",
+    "cmd.exe"
+  ],
+  "default_passwords": [
+    "admin",
+    "password",
+    "123456",
+    "root"
+  ],
+  "suspicious_modbus_functions": [
+    90,
+    43
+  ]
+}
