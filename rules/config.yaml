@@ -1,0 +1,6 @@
+network:
+  default_interface: eth0
+  bpf_filter: "tcp port 1883 or tcp port 502"
+logging:
+  level: INFO
+  file: "data/logs/analyzer.log"
